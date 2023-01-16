@@ -10,7 +10,7 @@ while ($r = $query->fetch_object()) {
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Select anidado</title>
+        <title>jorge lopez</title>
         
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
         <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -44,7 +44,7 @@ while ($r = $query->fetch_object()) {
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2>Combo Box anidado de 3 niveles</h2>
+                            <h2 style="color: blue">Combo Box anidado de 3 niveles</h2>
                             <?php if (isset($_COOKIE["comboadd"])): ?>
                                 <p class="alert alert-success">Combo Agregado exitosamente!</p>
                                 <?php setcookie("comboadd", 0, time() - 1);
